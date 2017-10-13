@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerExternalAuth", "IdentityServerExternalAuth\IdentityServerExternalAuth.csproj", "{915C519B-8BA0-47CC-924B-33A7C509B605}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{915C519B-8BA0-47CC-924B-33A7C509B605}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Sample\Api\Api.csproj", "{8484BC00-3DDF-4CB4-9D4B-66762FB530B4}"
 EndProject
@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Google", "Google", "{BA4D1A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-JavaScriptClient", "01-JavaScriptClient", "{405084AA-F076-4A3C-B6AF-B484CAC3BCFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptClient", "Sample\Google\01-JavaScriptClient\JavaScriptClient\JavaScriptClient.csproj", "{A3E80249-1A15-4F6D-984A-E85A53187448}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JavaScriptClient", "Sample\Google\01-JavaScriptClient\JavaScriptClient\JavaScriptClient.csproj", "{A3E80249-1A15-4F6D-984A-E85A53187448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer.ExternalAuth", "IdentityServer.ExternalAuth\IdentityServer.ExternalAuth.csproj", "{3532E294-24C8-47AA-AAB5-2F21BDF4C355}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{A3E80249-1A15-4F6D-984A-E85A53187448}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3E80249-1A15-4F6D-984A-E85A53187448}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3E80249-1A15-4F6D-984A-E85A53187448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3532E294-24C8-47AA-AAB5-2F21BDF4C355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3532E294-24C8-47AA-AAB5-2F21BDF4C355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3532E294-24C8-47AA-AAB5-2F21BDF4C355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3532E294-24C8-47AA-AAB5-2F21BDF4C355}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
